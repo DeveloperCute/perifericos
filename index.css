@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* =CSS Reset */
+/* https://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*, html, body {
+	margin:0;
+	padding:0;
+	}
+... /* mais regras CSS reset */
+
+/* regra para o box-sizing */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+/* regra para o clear float */
+.cf:before,
+.cf:after {content: " ";display: table;}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+body {	
+	margin:0;
+	margin-left:0;
+	
+	        		
+	        
+	        
+	; /* espaço à esquerda para a barra vertical vísivel do menu */
+	font:  62.5%/1.2 Arial;
+	overflow:auto; 
+	}
+	
+
+	#menu {
+
+
+
+		
+		text-decoration: none;
+		position:fixed;
+		height: 76px;
+		font-size: 1.5em;
+		z-index: 1;
+		width: 100%;
+		
+
+	}
+
+	#menu a{
+		 padding: 6px 6px 6px 32px;
+	 	 text-decoration: none;
+	 	 font-size: 25px;
+	 	 color: white;
+	  	display: block;
+	 	
+	}
+
+
+	#galeriaPic{
+
+		margin-left:32%;
+		position: relative;
+		margin-top:8%;
+		height: 500px;
+		width: 500px;
+
+	}
+	
+	#menu a:hover {
+	  border-bottom:3px solid black;
+	  color: black;
+	  text-decoration:none;
+	}
+
+
+	#divAbout{
+
+		
+		position:relative;
+
+
+	}
+
+	#about{
+
+		height: 500px;
+	  	text-align: justify;
+	  	margin: 50px;
+
+
+	  }
+
+	#divProjects{
+
+		border:none;
+		text-align:justify;
+	  	position: relative;
+	  	margin:40px;
+
+	  }
+
+	  #mosaicoTorre{
+
+	  		height: 400px;
+	  		width: 500px;
+
+	  }
+		
+
+
+		#fotos{
+
+			margin-left:40%;
+
+
+		}
+
+		#fotos h3{
+
+				font-size: 12px;
+
+		}
+
+
+
+		
+	@media screen and (max-width:1024px) {
+	  
+		#fotos{
+
+			margin:0;
+			width: 100%;
+
+		}
+	  	#menu{
+
+	  		width: 100%;
+  			height: 50px;
+  			margin:0;
+
+	  		}
+
+	  		#menu a{
+
+	  		font-size: 10px;
+
+	  		}
+	  
+	  
+	  
+	  #galeriaPic{
+	  	
+	  	position:relative;
+	  	margin-top:25%;
+	  	width:100%;
+	  	height: 200px;
+	  	margin-left:0px;
+	  	
+	  	
+	  	}
+
+
+	  	#logoF{
+
+
+
+                               border:none;
+
+                               position: fixed;
+
+                               left:0;
+
+                               width:100%;
+
+                               height:30px;
+
+                               bottom:0;
+
+                               margin:20;
+
+                              
+
+                }
+
+	  	#mosaicoTorre{
+
+	  		position: relative;
+	  		width: 100%;
+
+	  	}
+
+	  #about{
+
+	  	position: relative;
+		height: auto;
+	  	margin: 50px;
+
+
+	  }
+
+	  #divProjects{
+
+	  	text-align:justify;
+
+	  }
+
+
+
+
+	  
+	  
+	
+	}
+		
+	
+	
+	
+		
+
+	
+		
+	
+		
+		
+		
+		#menuFooter{
+				
+		
+				position: absolute;
+				left:0;
+				width:100%;
+				height:250px;
+				bottom:0;
+				top:400%;
+				
+				}
+		
+		
+		
+		
+		
+		
+.footer a{
+
+	text-decoration:none;
+
+}
+	
+	
+
+
+
+
+
+
+	
+	
+	
+
+	
+	
